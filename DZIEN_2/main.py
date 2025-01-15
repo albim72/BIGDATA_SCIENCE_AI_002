@@ -16,3 +16,10 @@ test_data = np.array([[1,1,1],[1,0,0],[0,1,1],[0,1,0],[0,0,1],[0,0,0]])
 
 for data in test_data:
     print(f"wynik dla {data} wynosi: {network.propagation(data)}")
+
+print(f"___ obiekty - kolekcje ____")
+nb = [5,7,3,67,3,7]
+npnb = np.array([3,7,3,7,3,7])
+
+print(type(nb))
+print(type(npnb))
